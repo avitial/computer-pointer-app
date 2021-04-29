@@ -1,0 +1,41 @@
+To close the application, press 'ESC' or 'q' with focus on the output window
+
+*****************************************
+*********** BENCHMARK RESULTS ***********
+*****************************************
+ Device: CPU
+ API type: async
+ Model Metrics:
+  face-detection-adas-0001.xml
+	load time:	   0.19509 ms
+	sync inference:	   21.90726 ms
+   	input processing:  1.98570 ms
+	output processing: 0.02225 ms
+	batch size: 1, precision: MIXED
+  landmarks-regression-retail-0009.xml
+	load time:	   0.04043 ms
+	sync inference:	   0.00000 ms
+   	input processing:  0.05108 ms
+	output processing: 0.05339 ms
+	batch size: 1, precision: FP16
+  head-pose-estimation-adas-0001.xml
+	load time:	   0.07744 ms
+	sync inference:	   0.00000 ms
+   	input processing:  0.05552 ms
+	output processing: 0.07848 ms
+	batch size: 1, precision: FP16
+  gaze-estimation-adas-0002.xml
+	load time:	   0.07015 ms
+	sync inference	   1.35397 ms
+   	input processing:  0.00010 ms
+	output processing: 0.02070 ms
+	batch size: 1, precision: MIXED
+ Models loading time:	   0.38310 ms
+ Models sync inference:  23.26124 ms
+ App runtime:		  47.47990  s
+ Render time:		   0.72043 ms 
+ Processed frames: 594
+ App:		   12.51 FPS
+ OpenCV Render:   824.50 FPS 
+******************************************
+

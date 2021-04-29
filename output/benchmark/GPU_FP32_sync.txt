@@ -1,0 +1,65 @@
+mbox_conf_reshape is GPU
+255/Output_0/Data__const is GPU
+conv4_3_0_norm_mbox_loc_perm is GPU
+conv4_3_norm_mbox_loc_perm is GPU
+conv4_3_0_norm_mbox_conf_perm is GPU
+conv4_3_norm_mbox_conf_perm is GPU
+fc7_mbox_conf_perm is GPU
+conv6_2_mbox_conf_perm is GPU
+conv6_2_mbox_loc_perm is GPU
+conv7_2_mbox_conf_perm is GPU
+conv7_2_mbox_loc_perm is GPU
+conv8_2_mbox_conf_perm is GPU
+conv8_2_mbox_loc_perm is GPU
+conv9_2_mbox_conf_perm is GPU
+conv9_2_mbox_loc_perm is GPU
+fc7_mbox_loc_perm is GPU
+130 is GPU
+129/Output_0/Data__const is GPU
+138 is GPU
+137/Output_0/Data__const is GPU
+140/Dims/Output_0/Data__const is GPU
+141/Dims/Output_0/Data__const is GPU
+150/Dims/Output_0/Data__const is GPU
+gaze_vector/Dims/Output_0/Data__const is GPU
+To close the application, press 'ESC' or 'q' with focus on the output window
+
+*****************************************
+*********** BENCHMARK RESULTS ***********
+*****************************************
+ Device: GPU
+ API type: sync
+ Model Metrics:
+  face-detection-adas-0001.xml
+	load time:	   13.92661 ms
+	sync inference:	   23.02171 ms
+   	input processing:  1.80403 ms
+	output processing: 0.01385 ms
+	batch size: 1, precision: MIXED
+  landmarks-regression-retail-0009.xml
+	load time:	   2.16507 ms
+	sync inference:	   0.98511 ms
+   	input processing:  0.04538 ms
+	output processing: 0.01095 ms
+	batch size: 1, precision: FP32
+  head-pose-estimation-adas-0001.xml
+	load time:	   2.60678 ms
+	sync inference:	   1.57519 ms
+   	input processing:  0.05064 ms
+	output processing: 0.01658 ms
+	batch size: 1, precision: FP32
+  gaze-estimation-adas-0002.xml
+	load time:	   4.23325 ms
+	sync inference	   2.03543 ms
+   	input processing:  0.00010 ms
+	output processing: 0.01125 ms
+	batch size: 1, precision: MIXED
+ Models loading time:	   22.93170 ms
+ Models sync inference:  27.61744 ms
+ App runtime:		  72.33089  s
+ Render time:		   0.60455 ms 
+ Processed frames: 594
+ App:		   8.21 FPS
+ OpenCV Render:   982.55 FPS 
+******************************************
+
