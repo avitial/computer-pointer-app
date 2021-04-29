@@ -94,7 +94,7 @@ This setup instructions assume you have OpenVINO toolkit already installed and c
 ```
 # Create python virtual environment
 python3 -m venv computer-pointer-app-venv
-# To ctivate python virtual environment
+# To activate python virtual environment
 source computer-pointer-app-venv/bin/activate
 # To deactivate python virtual environment
 deactivate
