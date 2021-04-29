@@ -415,4 +415,4 @@ The best performance for sync mode was for test run #3 (CPU, FP32, sync) with:
 
 
 ### Attributions
-The code to visualize intermediate results and draw Head Pose and Gaze estimation come from an answer in [this question](knowledge.udacity.com/questions/171017) given by mentor Shibin M.
+The code to visualize intermediate results and draw Head Pose and Gaze estimation come from an answer in this question, https://knowledge.udacity.com/questions/171017, given by mentor Shibin M.
